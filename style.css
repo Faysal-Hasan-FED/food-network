@@ -124,7 +124,6 @@ body{
 
 #chefs .box{
   width: 40%;
-  margin-bottom: 100px;
 }
 
 #chefs .box h1, h2{
@@ -141,5 +140,37 @@ body{
 #chefs .box img{
   width: 100%;
   border-radius: 50px;
+}
+
+
+#social .container{
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 15px;
+}
+
+
+#social .box{
+  width: 25%;
+  padding: 50px;
+}
+
+footer h2{
+  text-align: center;
+  padding: 10px;
+  color: gray;
+}
+
+footer p{
+  text-align: center;
+  padding: 15px;
+  color: whitesmoke;
+}
+
+footer{
+  background: black;
 }
 
