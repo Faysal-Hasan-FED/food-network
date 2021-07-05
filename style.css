@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.welcome-text{
+  color: #00ffff;
+  font-size: 80px;
+}
+
+.colored-text{
+  color: orange;
+}
+
+#welcome{
+  background: url(images/welcome11.jpg) no-repeat center center/cover;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+#welcome h1{
+  font-size: 50px;
+  color: tomato;
+  text-align: center;
+  padding-top: 150px;
+  font-family: cursive;
+}
+
+
+
+#firstlook{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.half-width{
+  width: 40%;
+}
+
+.half-width img{
+  width: 100%;
+  padding-left: 100px;
+}
+
+.half-width .less-width{
+  width: 60%;
+}
+
+
+.half-width h1{
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.half-width p{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.button{
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(orange,red);
+  border-radius: 20px;
+  color: whitesmoke;
+  box-shadow: 5px 5px 30px purple;
+}
+
+.button:hover{
+  background-image: linear-gradient(purple,cyan);
+  color: black;
+  box-shadow: 5px 5px 30px green;
+}
+
+#about{
+  display: flex;
+  justify-content: space-evenly;
+  background: url(images/shape1.png) center top;
+  margin-bottom: 100px;
+}
+
+.recipe-info{
+ width: 50%;
+ margin: 25px auto;
+ text-align: center;
+ 
+}
+
+#recipes .container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#recipes .container .box{
+  width: 25%;
+  box-shadow: 7px 7px 40px gray;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+#recipes .container .box .img img{
+  width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+#recipes .container .box h1 , 
+#recipes .container .box p{
+  padding-left: 30px;
+}
+
