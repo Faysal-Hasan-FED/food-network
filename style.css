@@ -17,7 +17,7 @@ body{
 }
 
 #welcome{
-  background: url(images/welcome11.jpg) no-repeat center center/cover;
+  background: url(images/welcomepic.jpg) no-repeat center top/cover;
   height: 500px;
   margin-bottom: 100px;
 }
