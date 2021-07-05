@@ -117,3 +117,29 @@ body{
   padding-left: 30px;
 }
 
+#chefs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#chefs .box{
+  width: 40%;
+  margin-bottom: 100px;
+}
+
+#chefs .box h1, h2{
+  text-align: center;
+  padding: 15px;
+}
+
+#chefs .box-1{
+  border-right: 5px solid;
+  border-image: linear-gradient(orange,red);
+  border-image-slice: 1;
+}
+
+#chefs .box img{
+  width: 100%;
+  border-radius: 50px;
+}
+
